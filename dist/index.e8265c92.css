@@ -9,9 +9,9 @@
 }
 
 .header__row {
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
 }
 
 .logo {
@@ -20,27 +20,29 @@
 }
 
 a {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
 .header__column {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .header__column-list {
-  margin-right: 30px;
   margin-left: 30px;
-  font-family: "Open Sans", sans-serif;
+  margin-right: 30px;
+  font-family: Open Sans, sans-serif;
   font-size: 20px;
 }
 
 .header__button-border {
   width: 156px;
   height: 58px;
-  border: 0 solid #d25658;
-  background-color: #d25658;
-  border-radius: 5px;
   text-align: center;
+  background-color: #d25658;
+  border: 0 solid #d25658;
+  border-radius: 5px;
 }
+
+/*# sourceMappingURL=index.e8265c92.css.map */
