@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+  "start": "parcel src/index.html --open",
+  "build": "parcel build src/index.html"
+}
