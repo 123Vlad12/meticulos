@@ -1,0 +1,26 @@
+.client__header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.client__text-slogan {
+  color: #552768;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+}
+
+.client__text-title {
+  color: #552768;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.client__list {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.79741d0e.css.map */
