@@ -1,0 +1,46 @@
+.partner {
+  width: 100%;
+  height: 550px;
+  background: url("hubspot-development.f021f3ce.jpg") no-repeat;
+}
+
+.partner__text {
+  width: 45%;
+  margin-left: 700px;
+  padding-top: 200px;
+}
+
+.partner__texts-slogan {
+  color: #fff;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+}
+
+.partner__texts-title {
+  color: #fff;
+  margin-top: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.partner__text-subtitle {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+}
+
+.partner__text-button {
+  color: #fff;
+  width: 260px;
+  text-align: center;
+  background-color: #d25658;
+  border: 0 solid #d25658;
+  border-radius: 10px;
+  padding: 20px 28px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.c3f01f71.css.map */
