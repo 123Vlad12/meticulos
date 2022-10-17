@@ -1,0 +1,41 @@
+.about-us-Agency {
+  display: flex;
+}
+.about-us-Agency__image-about-us {
+  width: 90%;
+}
+.about-us-Agency__text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+.about-us-Agency__slogan {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 18px;
+  color: #552768;
+  margin-bottom: 15px;
+}
+.about-us-Agency__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  color: #552768;
+}
+.about-us-Agency__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #552768;
+  margin: 30px 0;
+}
+.about-us-Agency__button {
+  background-color: #d25658;
+  border: 0px solid#d25658;
+  color: #fff;
+  padding: 20px 28px;
+  width: 260px;
+  border-radius: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
