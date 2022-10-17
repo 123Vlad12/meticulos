@@ -4,7 +4,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -38,11 +38,11 @@ a {
 
 .header__button-border {
   width: 156px;
-  height: 58px;
   text-align: center;
   background-color: #d25658;
   border: 0 solid #d25658;
   border-radius: 5px;
+  line-height: 58px;
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */

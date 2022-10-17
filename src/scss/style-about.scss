@@ -1,3 +1,50 @@
-.background {
-  background-image: url(/src/images/meta.jpg);
+.about {
+  background: url(/src/images/meta.jpg) no-repeat;
+  width: 100%;
+  height: 1520px;
+  margin: 0;
+}
+.about__text {
+  width: 600px;
+}
+.about__slogan {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.about__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
+  color: #fff;
+}
+.about__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin: 30px 0;
+}
+.about__button {
+  display: flex;
+}
+.about__button-one {
+  border: 1px solid#5bbb73;
+  background-color: #5bbb73;
+  width: 158px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-right: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #fff;
+}
+.about__button-two {
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 125px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
