@@ -1,0 +1,41 @@
+.management {
+  margin-top: 870px;
+  width: 100%;
+  background-color: rgba(250, 250, 252, 1);
+}
+.container {
+}
+.management__about {
+  display: flex;
+  justify-content: space-around;
+}
+.management__image {
+}
+.management__text {
+}
+.management__text-slogan {
+  color: #552768;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+  margin-top: 100px;
+}
+.management__text-title {
+  color: #552768;
+  margin-top: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+}
+.management__text-list li {
+  font-style: normal;
+  color: #62668a;
+  line-height: 30px;
+}
+.management__text-button {
+  background-color: #5bbb73;
+  border: 1px solid #5bbb73;
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px 28px;
+  width: 70px;
+}
