@@ -1,0 +1,70 @@
+.reviews {
+  background: url(../images/Layer\ 48.png) no-repeat;
+  width: 100%;
+  height: 500px;
+  margin-top: -90px;
+}
+.container {
+}
+.reviews__text {
+  text-align: center;
+}
+.reviews__text-slogan {
+  color: #fff;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+  margin-top: 100px;
+}
+.reviews__text-title {
+  margin-top: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+  color: #fff;
+}
+.reviews__about-client {
+  display: flex;
+  width: 1000px;
+  height: 340px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.reviews__about-client__photo {
+}
+.client__photo {
+  width: 280px;
+  height: 320px;
+  border-radius: 40px;
+  padding-right: 20px;
+}
+.reviews__about__title {
+}
+.reviews__about-client__title {
+  color: #552768;
+  font-family: Raleway, sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+}
+.reviews__about-client__subtitle {
+  color: #62668a;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.reviews__about-client__name {
+}
+.reviews__about-client__slogan {
+}
+.reviews__about-client__logo {
+}
+.client__logo {
+  width: 290px;
+  height: 70px;
+  position: relative;
+  bottom: 25px;
+  right: -390px;
+}

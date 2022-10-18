@@ -1,0 +1,68 @@
+.reviews {
+  width: 100%;
+  height: 500px;
+  background: url("Layer 48.16cdf7d9.png") no-repeat;
+  margin-top: -90px;
+}
+
+.reviews__text {
+  text-align: center;
+}
+
+.reviews__text-slogan {
+  color: #fff;
+  margin-top: 100px;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+}
+
+.reviews__text-title {
+  color: #fff;
+  margin-top: 15px;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.reviews__about-client {
+  width: 1000px;
+  height: 340px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+}
+
+.client__photo {
+  width: 280px;
+  height: 320px;
+  border-radius: 40px;
+  padding-right: 20px;
+}
+
+.reviews__about-client__title {
+  color: #552768;
+  font-family: Raleway, sans-serif;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.reviews__about-client__subtitle {
+  color: #62668a;
+  margin-bottom: 10px;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.client__logo {
+  width: 290px;
+  height: 70px;
+  position: relative;
+  bottom: 25px;
+  right: -390px;
+}
+
+/*# sourceMappingURL=index.cbeaff6f.css.map */
