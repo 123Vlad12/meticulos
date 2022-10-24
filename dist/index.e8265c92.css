@@ -34,8 +34,7 @@ a {
 }
 
 .header__column-list {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 15px;
   font-family: Open Sans, sans-serif;
   font-size: 20px;
 }
@@ -47,6 +46,10 @@ a {
   border: 0 solid #d25658;
   border-radius: 5px;
   line-height: 58px;
+}
+
+.header__search {
+  margin-right: 15px;
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */

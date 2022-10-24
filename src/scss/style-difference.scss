@@ -1,5 +1,9 @@
 .differenc {
-  background: url(/src/images/hubspot-solutions-partner-canada.jpg) no-repeat;
+  background-image: url("../images/hubspot-solutions-partner-canada.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
   width: 100%;
   height: 550px;
   display: flex;
