@@ -61,4 +61,18 @@
   line-height: 60px;
 }
 
+.reviews__client {
+  align-items: center;
+  display: flex;
+}
+
+.reviews__button {
+  display: flex;
+}
+
+.reviews__button-next {
+  outline: none;
+  padding: 25px;
+}
+
 /*# sourceMappingURL=index.457b9fe3.css.map */

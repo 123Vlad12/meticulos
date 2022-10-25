@@ -1,0 +1,121 @@
+.resource {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.resource__header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.resource__text-slogan {
+  color: #552768;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+}
+
+.resource__text-title {
+  color: #552768;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 20px;
+}
+
+.resource__button {
+  color: #1f2559;
+  border-radius: 5px;
+}
+
+.resource__button-right {
+  padding: 20px 28px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+}
+
+.resource__row {
+  justify-content: space-between;
+  margin: 30px 0 50px;
+  display: flex;
+}
+
+.resource__column {
+  width: 32%;
+  border: 1px solid #f4f4f9;
+  border-radius: 24px;
+  transition-duration: 1.2s;
+}
+
+.resource__column:hover {
+  transform: scale(1.1);
+}
+
+.image-resource {
+  width: 384px;
+  height: 200px;
+  border-radius: 24px 24px 0 0;
+}
+
+.column__title {
+  color: #1f2559;
+  margin: 20px 15px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 21px;
+  line-height: 28px;
+}
+
+.column__subtitle {
+  color: #62668a;
+  margin: 20px 15px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.column__about-client {
+  border-top: 1px solid #f4f4f9;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 15px;
+  display: flex;
+}
+
+.about__image-client {
+  margin-top: 20px;
+}
+
+.image-client {
+  width: 54px;
+  border-radius: 25px;
+}
+
+.about__text-client {
+  margin-top: 20px;
+}
+
+.text-client__name {
+  color: #1f2559;
+  margin: 0;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.text-client__the-date {
+  color: #62668a;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.about__button-client {
+  color: #fff;
+  background-color: #552768;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 6px 12px 8px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=index.236acc54.css.map */

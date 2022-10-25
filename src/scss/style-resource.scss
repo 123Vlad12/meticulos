@@ -1,0 +1,107 @@
+.resource {
+  width: 100%;
+  margin-top: 50px;
+}
+.container {
+}
+.resource__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resource__text {
+}
+.resource__text-slogan {
+  color: #552768;
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+}
+.resource__text-title {
+  color: #552768;
+  font-family: Raleway, sans-serif;
+  font-size: 38px;
+  line-height: 20px;
+}
+.resource__button {
+  border-radius: 5px;
+  color: #1f2559;
+}
+.resource__button-right {
+  padding: 20px 28px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 18px;
+}
+.resource__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 50px;
+}
+.resource__column {
+  width: 32%;
+  border: 1px solid #f4f4f9;
+  border-radius: 24px;
+  transition-duration: 1.2s;
+}
+.resource__column:hover {
+  transform: scale(1.1);
+}
+.column__image {
+}
+.image-resource {
+  width: 384px;
+  height: 200px;
+  border-radius: 24px 24px 0 0;
+}
+.column__title {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1f2559;
+  font-size: 21px;
+  line-height: 28px;
+  margin: 20px 15px;
+}
+.column__subtitle {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #62668a;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 20px 15px;
+}
+.column__about-client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 15px;
+  border-top: 1px solid #f4f4f9;
+}
+.about__image-client {
+  margin-top: 20px;
+}
+.image-client {
+  width: 54px;
+  border-radius: 25px;
+}
+.about__text-client {
+  margin-top: 20px;
+}
+.text-client__name {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1f2559;
+  font-size: 17px;
+  line-height: 28px;
+  margin: 0;
+}
+.text-client__the-date {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #62668a;
+  font-size: 15px;
+  line-height: 25px;
+}
+.about__button-client {
+  margin-top: 20px;
+  background-color: #552768;
+  padding: 6px 12px 8px;
+  border-radius: 5px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+}
