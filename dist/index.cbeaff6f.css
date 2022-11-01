@@ -33,7 +33,12 @@
   border-radius: 20px;
   margin: 0 auto;
   padding: 20px;
+  transition-duration: .5s;
   display: flex;
+}
+
+.reviews__about-client:hover {
+  transform: scale(1.1);
 }
 
 .client__photo {
@@ -64,6 +69,16 @@
   position: relative;
   bottom: 25px;
   right: -390px;
+}
+
+.reviews__button-next {
+  outline: none;
+  padding: 25px;
+  font-size: 40px;
+}
+
+.reviews__button {
+  display: flex;
 }
 
 /*# sourceMappingURL=index.cbeaff6f.css.map */

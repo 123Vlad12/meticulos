@@ -51,6 +51,11 @@
   border-radius: 20px;
   margin: 10px 10px 20px;
   padding: 10px;
+  transition-duration: .5s;
+}
+
+.services__column-column:hover {
+  transform: scale(1.1);
 }
 
 .services__column-column-icon {

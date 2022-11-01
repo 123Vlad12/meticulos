@@ -38,6 +38,11 @@
   display: flex;
 }
 
+.process__column-column-image:hover {
+  transition-duration: .5s;
+  transform: scale(1.1);
+}
+
 .process__column-column-title {
   width: 310px;
   text-align: center;

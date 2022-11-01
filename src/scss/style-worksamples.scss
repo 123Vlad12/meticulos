@@ -31,6 +31,10 @@
   width: 32%;
   margin-bottom: 20px;
   background-color: #fafafc;
+  transition-duration: 0.5s;
+}
+.worksamples__column-last:hover {
+  transform: scale(1.1);
 }
 .worksamples__column-last-image {
 }

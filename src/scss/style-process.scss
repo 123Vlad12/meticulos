@@ -36,8 +36,11 @@
 }
 .process__column-column {
 }
-.process__column-column-image {
+.process__column-column-image:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
+
 .process__column-column-title {
   width: 310px;
   text-align: center;
