@@ -10,8 +10,9 @@
   margin: 0;
 }
 .about__text {
-  width: 600px;
+  max-width: 600px;
   padding-top: 100px;
+  margin: 0 30px;
 }
 .about__slogan {
   @include slogan;
@@ -56,4 +57,17 @@
 .reviews__client {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 890px) {
+  .about__text {
+    margin: 0 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .about__title {
+    font-size: 38px;
+  }
+  .about__text {
+    margin: 0 20px;
+  }
 }

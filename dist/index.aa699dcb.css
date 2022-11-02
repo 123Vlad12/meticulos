@@ -35,4 +35,10 @@
   font-size: 18px;
 }
 
+@media screen and (max-width: 767px) {
+  .differenc__text-slogan {
+    margin-top: 50px;
+  }
+}
+
 /*# sourceMappingURL=index.aa699dcb.css.map */

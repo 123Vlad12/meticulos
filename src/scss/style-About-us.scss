@@ -1,5 +1,9 @@
+.about-us {
+  margin: 50px 30px;
+}
 .about-us-Agency {
   display: flex;
+  align-items: center;
 }
 .about-us-Agency__image-about-us {
   width: 90%;
@@ -38,4 +42,21 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   text-align: center;
   font-size: 18px;
+}
+@media screen and (max-width: 767px) {
+  .about-us-Agency__image {
+    display: none;
+  }
+  .about-us-Agency__text {
+    width: 100%;
+    margin: 30px 30px 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about-us-Agency__title {
+    font-size: 38px;
+  }
+  .about-us {
+    margin: 0 0;
+  }
 }
