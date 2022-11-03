@@ -28,9 +28,21 @@
 }
 
 .resource__button-right {
+  color: #1f2559;
+  background-color: #fff;
+  border: 1px solid #1f2559;
+  border-radius: 5px;
   padding: 20px 28px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
+  font-weight: 500;
+  transition-duration: .3s;
+}
+
+.resource__button-right:hover {
+  color: #fff;
+  background-color: #552768;
+  transform: scale(1.1);
 }
 
 .resource__row {

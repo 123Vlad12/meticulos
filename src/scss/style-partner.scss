@@ -10,9 +10,9 @@
 .container {
 }
 .partner__text {
-  width: 45%;
-  margin-left: 700px;
-  padding-top: 200px;
+  width: 40%;
+  margin-left: 640px;
+  padding-top: 120px;
 }
 .partner__texts-slogan {
   color: #fff;
@@ -42,4 +42,9 @@
   padding: 20px 28px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    background-color: #e7090c;
+  }
 }

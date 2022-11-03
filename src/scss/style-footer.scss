@@ -54,9 +54,11 @@
   border-radius: 12px;
   color: #fff;
   padding: 20px 28px;
-}
-.main-left__button:hover {
-  background-color: brown;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: brown;
+    transform: scale(1.1);
+  }
 }
 .footer__main-right {
   display: flex;

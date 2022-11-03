@@ -72,9 +72,18 @@
 }
 
 .reviews__button-next {
-  outline: none;
-  padding: 25px;
-  font-size: 40px;
+  background: #fff;
+  border: 1px solid #f4f4f9;
+  border-radius: 16px;
+  padding: 19px 23px;
+  font-size: 28px;
+  transition-duration: .3s;
+}
+
+.reviews__button-next:hover {
+  color: #fff;
+  background-color: #552768;
+  transform: scale(1.1);
 }
 
 .reviews__button {

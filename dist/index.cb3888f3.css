@@ -49,6 +49,12 @@
   padding: 20px 28px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
+  transition-duration: .3s;
+}
+
+.about-us-Agency__button:hover {
+  background-color: #e7090c;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {

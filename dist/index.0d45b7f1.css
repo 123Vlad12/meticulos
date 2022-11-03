@@ -81,6 +81,11 @@
   border-radius: 20px;
 }
 
+.services__button {
+  margin: 20px 0 0;
+  padding-bottom: 50px;
+}
+
 .services__header-button {
   color: #fff;
   width: 260px;
@@ -92,6 +97,12 @@
   padding: 20px 28px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
+  transition-duration: .3s;
+}
+
+.services__header-button:hover {
+  background-color: #e7090c;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1180px) {

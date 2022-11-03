@@ -84,7 +84,9 @@
   border-radius: 12px;
   color: #fff;
   padding: 20px 28px;
-}
-.interview-form__button:hover {
-  background-color: brown;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: brown;
+    transform: scale(1.1);
+  }
 }

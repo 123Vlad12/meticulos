@@ -9,9 +9,9 @@
 }
 
 .partner__text {
-  width: 45%;
-  margin-left: 700px;
-  padding-top: 200px;
+  width: 40%;
+  margin-left: 640px;
+  padding-top: 120px;
 }
 
 .partner__texts-slogan {
@@ -45,6 +45,12 @@
   padding: 20px 28px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
+  transition-duration: .3s;
+}
+
+.partner__text-button:hover {
+  background-color: #e7090c;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=index.c3f01f71.css.map */

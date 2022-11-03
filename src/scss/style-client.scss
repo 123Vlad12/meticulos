@@ -24,4 +24,23 @@
 .client__list {
   display: flex;
   margin-bottom: 40px;
+  position: relative;
+  right: 0;
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  img {
+    width: 200px;
+    height: 100px;
+  }
+  @keyframes animation {
+    0% {
+      right: 0;
+    }
+    100% {
+      right: 200px;
+    }
+  }
 }

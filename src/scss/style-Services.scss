@@ -72,6 +72,10 @@
 .column-icon {
   border-radius: 20px;
 }
+.services__button {
+  margin: 20px 0 0;
+  padding-bottom: 50px;
+}
 .services__header-button {
   margin: 0 auto;
   background-color: #d25658;
@@ -83,7 +87,11 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   text-align: center;
   font-size: 18px;
-  // margin-bottom: 20px;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    background-color: #e7090c;
+  }
 }
 @media screen and (max-width: 1180px) {
   .services__column {

@@ -37,6 +37,13 @@
   border: 1px solid #5bbb73;
   border-radius: 5px;
   padding: 20px 28px;
+  font-family: Plus Jakarta Sans, sans-serif;
+  font-size: 15px;
+  transition-duration: .3s;
+}
+
+.management__text-button:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=index.b970b3a7.css.map */

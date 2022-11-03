@@ -36,9 +36,9 @@
   margin: 0 auto;
   padding: 20px;
   transition-duration: 0.5s;
-}
-.reviews__about-client:hover {
-  transform: scale(1.1);
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .reviews__about-client__photo {
 }
@@ -77,9 +77,17 @@
   right: -390px;
 }
 .reviews__button-next {
-  font-size: 40px;
-  padding: 25px 25px;
-  outline: none;
+  padding: 19px 23px;
+  background: #ffffff;
+  border: 1px solid #f4f4f9;
+  border-radius: 16px;
+  font-size: 28px;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: #552768;
+    transform: scale(1.1);
+    color: #fff;
+  }
 }
 .reviews__button {
   display: flex;

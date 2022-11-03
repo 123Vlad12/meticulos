@@ -42,6 +42,11 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   text-align: center;
   font-size: 18px;
+  transition-duration: 0.3s;
+  &:hover {
+    transform: scale(1.1);
+    background-color: #e7090c;
+  }
 }
 @media screen and (max-width: 767px) {
   .about-us-Agency__image {

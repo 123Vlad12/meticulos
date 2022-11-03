@@ -52,10 +52,12 @@
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
   line-height: 27px;
+  transition-duration: .3s;
 }
 
 .main-left__button:hover {
   background-color: brown;
+  transform: scale(1.1);
 }
 
 .footer__main-right {
