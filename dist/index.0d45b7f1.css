@@ -151,4 +151,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .services__header-button {
+    width: 199px;
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+}
+
 /*# sourceMappingURL=index.0d45b7f1.css.map */

@@ -76,11 +76,6 @@
   transform: scale(1.1);
 }
 
-.reviews__client {
-  align-items: center;
-  display: flex;
-}
-
 @media screen and (max-width: 890px) {
   .about__text {
     margin: 0 30px;
