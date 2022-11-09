@@ -6,7 +6,7 @@
 
 .process__text {
   text-align: center;
-  width: 550px;
+  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -33,6 +33,7 @@
 }
 
 .process__column {
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 40px;
   display: flex;
@@ -48,6 +49,7 @@
   text-align: center;
   font-family: Fraunces, serif;
   font-size: 18px;
+  font-weight: 500;
   line-height: 38px;
 }
 
@@ -114,6 +116,24 @@
 .line-image {
   height: 350px;
   width: 100%;
+}
+
+@media screen and (max-width: 637px) {
+  .process__text-title {
+    font-size: 30px;
+  }
+
+  .process__column {
+    justify-content: center;
+  }
+
+  .process__column-column-image {
+    text-align: center;
+  }
+
+  .process__column-column-title, .process__column-column-subtitle {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.ead382f9.css.map */

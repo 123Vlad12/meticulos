@@ -64,8 +64,6 @@
 
   .about-us-Agency__text {
     width: 100%;
-    text-align: center;
-    align-items: center;
     margin: 30px;
   }
 }
@@ -77,12 +75,6 @@
 
   .about-us {
     margin: 0;
-  }
-
-  .about-us-Agency__button {
-    color: #fff;
-    max-width: 200px;
-    font-size: 16px;
   }
 }
 

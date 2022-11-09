@@ -50,9 +50,12 @@
     justify-content: space-evenly;
   }
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 500px) {
+  .worksamples__column-last {
+    text-align: center;
+  }
   .fatshark {
-    max-width: 648px;
+    max-width: 260px;
     width: 100%;
   }
 }
