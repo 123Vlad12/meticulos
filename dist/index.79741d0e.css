@@ -29,6 +29,7 @@
     display: flex;
     position: relative;
     right: 0;
+    overflow: hidden;
   }
 
   .client__list img {
