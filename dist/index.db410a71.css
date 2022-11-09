@@ -22,13 +22,12 @@
 }
 
 .worksamples__column {
-  flex-flow: wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   display: flex;
 }
 
 .worksamples__column-last {
-  width: 32%;
   background-color: #fafafc;
   border: 1px solid #f4f4f9;
   border-radius: 40px;
@@ -41,8 +40,7 @@
 }
 
 .fatshark {
-  width: 337px;
-  height: 337px;
+  max-width: 337px;
   border-radius: 70px;
   padding: 24px 24px 16px;
 }
@@ -54,6 +52,19 @@
   font-family: Raleway, sans-serif;
   font-size: 30px;
   line-height: 48px;
+}
+
+@media screen and (max-width: 1179px) {
+  .worksamples__column {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .fatshark {
+    max-width: 648px;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.db410a71.css.map */

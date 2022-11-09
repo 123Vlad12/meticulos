@@ -8,7 +8,7 @@
 .process__text {
   text-align: center;
   margin: 0 auto;
-  width: 550px;
+  max-width: 550px;
 }
 .process__text-slogan {
   color: #552768;
@@ -32,6 +32,7 @@
 .process__column {
   margin-top: 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .process__column-column {
@@ -47,6 +48,7 @@
   font-size: 18px;
   line-height: 38px;
   font-family: "Fraunces", serif;
+  font-weight: 500;
 }
 .process__column-column-subtitle {
   width: 310px;
@@ -104,4 +106,21 @@
 .line-image {
   height: 350px;
   width: 100%;
+}
+@media screen and (max-width: 637px) {
+  .process__text-title {
+    font-size: 30px;
+  }
+  .process__column {
+    justify-content: center;
+  }
+  .process__column-column-image {
+    text-align: center;
+  }
+  .process__column-column-title {
+    width: 100%;
+  }
+  .process__column-column-subtitle {
+    width: 100%;
+  }
 }

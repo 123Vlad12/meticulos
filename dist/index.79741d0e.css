@@ -18,30 +18,32 @@
   line-height: 48px;
 }
 
-.client__list {
-  margin-bottom: 40px;
-  animation-name: animation;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  display: flex;
-  position: relative;
-  right: 0;
-}
-
-.client__list img {
-  width: 200px;
-  height: 100px;
-}
-
-@keyframes animation {
-  0% {
+@media screen and (min-width: 1200px) {
+  .client__list {
+    margin-bottom: 40px;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    display: flex;
+    position: relative;
     right: 0;
   }
 
-  100% {
-    right: 200px;
+  .client__list img {
+    width: 200px;
+    height: 100px;
+  }
+
+  @keyframes animation {
+    0% {
+      right: 0;
+    }
+
+    100% {
+      right: 200px;
+    }
   }
 }
 

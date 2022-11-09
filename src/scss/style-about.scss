@@ -6,12 +6,12 @@
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  height: 710px;
+  min-height: 710px;
   margin: 0;
 }
 .about__text {
   max-width: 600px;
-  padding-top: 100px;
+  padding: 100px 0 100px;
   margin: 0 30px;
 }
 .about__slogan {
@@ -80,5 +80,11 @@
   }
   .about__text {
     margin: 0 20px;
+  }
+  .about__button-one {
+    max-width: 130px;
+  }
+  .about__button-two {
+    max-width: 110px;
   }
 }

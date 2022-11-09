@@ -49,6 +49,7 @@
   padding-right: 20px;
 }
 .reviews__about__title {
+  position: relative;
 }
 .reviews__about-client__title {
   color: #552768;
@@ -72,9 +73,9 @@
 .client__logo {
   width: 290px;
   height: 70px;
-  position: relative;
+  position: absolute;
   bottom: 25px;
-  right: -390px;
+  right: 0;
 }
 .reviews__button-next {
   padding: 19px 23px;

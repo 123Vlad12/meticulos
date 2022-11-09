@@ -55,6 +55,8 @@
   .about-us-Agency__text {
     width: 100%;
     margin: 30px 30px 30px;
+    text-align: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 600px) {
@@ -63,5 +65,10 @@
   }
   .about-us {
     margin: 0 0;
+  }
+  .about-us-Agency__button {
+    color: #fff;
+    max-width: 200px;
+    font-size: 16px;
   }
 }
