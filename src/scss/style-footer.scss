@@ -6,10 +6,11 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
+  padding: 0 20px;
 }
 .footer__main-left {
   margin-top: 100px;
-  width: 366px;
+  max-width: 366px;
   display: flex;
   flex-direction: column;
 }
@@ -31,6 +32,9 @@
 .main-left__label {
   display: flex;
   flex-direction: column;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
 }
 .main-left__input {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -58,14 +62,22 @@
   &:hover {
     background-color: brown;
     transform: scale(1.1);
+    cursor: pointer;
   }
 }
 .footer__main-right {
   display: flex;
   margin-top: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition-duration: 0.3s;
+  &:hover li {
+    cursor: pointer;
+    color: #1f2559;
+  }
 }
 .main-right__list {
-  width: 200px;
+  max-width: 200px;
 }
 
 ul {
@@ -90,14 +102,12 @@ li:not(:first-child) {
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #e7e8f1;
-}
-.footer__bottom-icon {
+  padding: 0 20px;
 }
 .bottom-icon {
   border-radius: 30px;
   width: 35px;
-  margin-right: 10px;
-  margin: 30px 0 30px;
+  margin: 30px 10px 30px 0px;
 }
 .footer__bottom-text {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -105,4 +115,26 @@ li:not(:first-child) {
   color: #62668a;
   line-height: 27px;
   margin: 30px 0 30px;
+}
+@media screen and (max-width: 765px) {
+  .footer__main {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer__main-left {
+    max-width: 100%;
+  }
+  .footer__main-right {
+    margin-top: 0;
+  }
+  .main-left__button {
+    width: 100%;
+  }
+  .footer__bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footer__bottom-text {
+    margin: 0px 0px 30px 0px;
+  }
 }
