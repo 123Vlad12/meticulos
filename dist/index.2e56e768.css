@@ -1,11 +1,11 @@
 .interview {
   width: 100%;
-  height: 760px;
   background-image: url("hubspot-quote.1d7cb584.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
+  padding: 60px 0;
 }
 
 .interview__row {
@@ -13,12 +13,12 @@
 }
 
 .interview__left {
-  width: 50%;
+  max-width: 48%;
+  padding: 80px 20px 0;
 }
 
 .left__text-slogan {
   color: #fff;
-  padding-top: 150px;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 18px;
   line-height: 27px;
@@ -40,7 +40,7 @@
 }
 
 .interview__right {
-  width: 550px;
+  min-width: 550px;
   background-color: #fff;
   border: 1px solid #e7e8f1;
   border-radius: 36px;
@@ -55,27 +55,28 @@
 }
 
 .interview-form__name {
-  width: 240px;
-  color: #1f2559;
-  height: 62px;
+  max-width: 230px;
+  width: 100%;
+  color: #62668a;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
-  margin-bottom: 30px;
-  padding: 10px 0;
+  margin-bottom: 20px;
+  padding: 15px 21px;
   font-family: Plus Jakarta Sans, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
 }
 
 .interview-form__comments {
-  width: 500px;
-  color: #1f2559;
+  min-width: 500px;
+  width: 100%;
+  color: #62668a;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
   margin-bottom: 30px;
-  padding: 10px 0;
+  padding: 15px 21px;
   font-family: Plus Jakarta Sans, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
 }
 
