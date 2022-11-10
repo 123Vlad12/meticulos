@@ -37,23 +37,15 @@
   line-height: 27px;
   color: #fff;
 }
-.interview__right {
+.interview-form {
   margin-top: 50px;
-  min-width: 550px;
+  max-width: 550px;
+  padding: 30px;
   background-color: #ffffff;
   border: 1px solid #e7e8f1;
   border-radius: 36px;
 }
-.interview-form {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 30px;
-}
 .interview-form__name {
-  max-width: 230px;
-  width: 100%;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
   line-height: 27px;
@@ -62,9 +54,10 @@
   border: 1px solid #e7e8f1;
   color: #62668a;
   border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .interview-form__comments {
-  min-width: 500px;
   width: 100%;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
@@ -74,6 +67,7 @@
   border: 1px solid #e7e8f1;
   color: #62668a;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 .interview-form__button {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -89,5 +83,22 @@
   &:hover {
     background-color: brown;
     transform: scale(1.1);
+  }
+}
+.interview-form__inner {
+  display: flex;
+}
+.interview-form__item + .interview-form__item {
+  margin-left: 10px;
+}
+.interview-form__item {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .interview__row {
+    flex-direction: column;
+  }
+  .interview__left {
+    max-width: 100%;
   }
 }

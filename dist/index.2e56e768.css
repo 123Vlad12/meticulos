@@ -39,25 +39,19 @@
   line-height: 27px;
 }
 
-.interview__right {
-  min-width: 550px;
+.interview-form {
+  max-width: 550px;
   background-color: #fff;
   border: 1px solid #e7e8f1;
   border-radius: 36px;
   margin-top: 50px;
-}
-
-.interview-form {
-  flex-flow: wrap;
-  justify-content: space-between;
-  margin: 30px;
-  display: flex;
+  padding: 30px;
 }
 
 .interview-form__name {
-  max-width: 230px;
-  width: 100%;
   color: #62668a;
+  width: 100%;
+  box-sizing: border-box;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -68,9 +62,9 @@
 }
 
 .interview-form__comments {
-  min-width: 500px;
   width: 100%;
   color: #62668a;
+  box-sizing: border-box;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -96,6 +90,28 @@
 .interview-form__button:hover {
   background-color: brown;
   transform: scale(1.1);
+}
+
+.interview-form__inner {
+  display: flex;
+}
+
+.interview-form__item + .interview-form__item {
+  margin-left: 10px;
+}
+
+.interview-form__item {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .interview__row {
+    flex-direction: column;
+  }
+
+  .interview__left {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.2e56e768.css.map */

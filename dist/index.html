@@ -20,7 +20,10 @@
     <link rel="stylesheet" href="/index.2e56e768.css">
     <link rel="stylesheet" href="/index.b636242e.css">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Inter+Tight&family=Open+Sans&family=Plus+Jakarta+Sans&family=Raleway&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/48c9ce6632.js" crossorigin="anonymous"></script>
+    <!-- <script
+      src="https://kit.fontawesome.com/48c9ce6632.js"
+      crossorigin="anonymous"
+    ></script> -->
   </head>
   <body>
     <header>
@@ -242,7 +245,7 @@
       </div>
       <div class="partner">
         <div class="container">
-          <div class="text">
+          <div class="partner__wraper">
             <div class="partner__text">
               <div class="partner__texts-slogan">Partner Certified</div>
               <h2 class="partner__texts-title">HubSpot Development</h2>
@@ -538,18 +541,22 @@
                 </div>
               </div>
             </div>
-            <div class="interview__right">
-              <form class="interview-form">
-                <input class="interview-form__name" type="text" name="First name" placeholder="First name">
-                <input class="interview-form__name" type="text" name="Last name" placeholder="Last name">
-                <input class="interview-form__name" type="email" name="email" placeholder="Email*">
-                <input class="interview-form__name" type="tel" name="phone" placeholder="Phone Number">
-                <textarea class="interview-form__comments" name="comments" cols="45" rows="5" placeholder="Send us a message"></textarea>
-                <button class="interview-form__button" type="submit">
-                  Submit Now
-                </button>
-              </form>
-            </div>
+            <form class="interview-form">
+              <div class="interview-form__inner">
+                <div class="interview-form__item">
+                  <input class="interview-form__name" type="text" name="First name" placeholder="First name">
+                  <input class="interview-form__name" type="text" name="Last name" placeholder="Last name">
+                </div>
+                <div class="interview-form__item">
+                  <input class="interview-form__name" type="email" name="email" placeholder="Email*">
+                  <input class="interview-form__name" type="tel" name="phone" placeholder="Phone Number">
+                </div>
+              </div>
+              <textarea class="interview-form__comments" name="comments" cols="45" rows="5" placeholder="Send us a message"></textarea>
+              <button class="interview-form__button" type="submit">
+                Submit Now
+              </button>
+            </form>
           </div>
         </div>
       </div>

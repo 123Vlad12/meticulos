@@ -5,14 +5,16 @@
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  height: 550px;
+  padding: 140px 0px 140px 0px;
 }
 .container {
+}
+.partner__wraper {
+  display: flex;
 }
 .partner__text {
   width: 40%;
   margin-left: 640px;
-  padding-top: 120px;
 }
 .partner__texts-slogan {
   color: #fff;
