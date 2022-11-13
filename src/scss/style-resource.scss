@@ -2,16 +2,12 @@
   width: 100%;
   margin-top: 50px;
 }
-.container {
-}
 .resource__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 15px;
   flex-wrap: wrap;
-}
-.resource__text {
 }
 .resource__text-slogan {
   color: #552768;
@@ -57,8 +53,6 @@
     transform: scale(1.1);
     transition-duration: 1.2s;
   }
-}
-.column__image {
 }
 .image-resource {
   width: 384px;

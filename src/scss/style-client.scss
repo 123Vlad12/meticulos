@@ -1,12 +1,9 @@
-.client {
-}
-.container {
+.client__wrapper {
+  overflow: hidden;
 }
 .client__header {
   margin-top: 40px;
   text-align: center;
-}
-.client__header-text {
 }
 .client__text-slogan {
   color: #552768;
@@ -21,29 +18,27 @@
   font-size: 38px;
   line-height: 48px;
 }
-@media screen and (min-width: 1200px) {
-  .client__list {
-    display: flex;
-    margin-bottom: 40px;
-    position: relative;
-    right: 0;
-    animation-name: animation;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    overflow: hidden;
-    img {
-      width: 200px;
-      height: 100px;
+.client__list {
+  display: flex;
+  margin-bottom: 40px;
+  position: relative;
+  right: 0;
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  img {
+    width: 200px;
+    height: 100px;
+  }
+  @keyframes animation {
+    0% {
+      right: 0;
     }
-    @keyframes animation {
-      0% {
-        right: 0;
-      }
-      100% {
-        right: 200px;
-      }
+    100% {
+      right: 200px;
     }
   }
 }

@@ -38,7 +38,7 @@
   color: #fff;
 }
 .interview-form {
-  margin-top: 50px;
+  margin: 50px 20px 30px 20px;
   max-width: 550px;
   padding: 30px;
   background-color: #ffffff;
@@ -100,5 +100,12 @@
   }
   .interview__left {
     max-width: 100%;
+    padding: 0 20px;
+  }
+  .interview-form__inner {
+    flex-direction: column;
+  }
+  .interview-form__item + .interview-form__item {
+    margin-left: 0;
   }
 }
