@@ -8,10 +8,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.management__text {
+  margin: 100px 0;
+}
 .management__text-slogan {
   color: #552768;
   font-size: 18px;
-  margin-top: 100px;
   font-family: "Inter Tight", sans-serif;
 }
 .management__text-title {
@@ -38,5 +40,22 @@
   transition-duration: 0.3s;
   &:hover {
     transform: scale(1.1);
+  }
+}
+.management__image {
+  margin-top: 50px;
+  img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 765px) {
+  .management__about {
+    flex-wrap: wrap;
+  }
+  .management__text {
+    margin: 50px 20px;
+  }
+  .management__text-title {
+    font-size: 30px;
   }
 }

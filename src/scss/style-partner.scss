@@ -5,16 +5,16 @@
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  padding: 140px 0px 140px 0px;
-}
-.container {
+  padding: 140px 0px;
 }
 .partner__wraper {
   display: flex;
+  justify-content: flex-end;
 }
 .partner__text {
-  width: 40%;
-  margin-left: 640px;
+  max-width: 429px;
+  width: 100%;
+  padding: 0 20px;
 }
 .partner__texts-slogan {
   color: #fff;
@@ -48,5 +48,32 @@
   &:hover {
     transform: scale(1.1);
     background-color: #e7090c;
+  }
+}
+@media screen and (max-width: 767px) {
+  .partner {
+    background-image: none;
+    background-color: #56206e;
+    padding: 80px 0px;
+  }
+  .partner__text {
+    max-width: 100%;
+  }
+  .partner__texts-slogan {
+    font-size: 16px;
+  }
+  .partner__texts-title {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .partner__text-subtitle {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .partner__text-button {
+    width: 210px;
+    font-size: 15px;
   }
 }

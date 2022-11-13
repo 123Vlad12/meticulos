@@ -5,23 +5,21 @@
   background-size: cover;
   background-attachment: scroll;
   width: 100%;
-  height: 550px;
   display: flex;
   margin-top: 40px;
 }
 .differenc__text {
   width: 50%;
+  margin: 100px 20px;
 }
 .differenc__text-slogan {
-  margin-top: 100px;
   color: #fff;
   font-family: "Inter Tight", sans-serif;
   font-size: 18px;
-  margin-bottom: 15px;
 }
 .differenc__text-title {
   font-family: "Raleway", sans-serif;
-  font-size: 48px;
+  font-size: 38px;
   color: #fff;
 }
 .differenc__text-subtitle {
@@ -31,7 +29,28 @@
   margin-bottom: 30px;
 }
 @media screen and (max-width: 767px) {
+  .differenc {
+    background-image: none;
+    background-color: #d25658;
+  }
+  .differenc__text {
+    width: 100%;
+    margin: 100px 0;
+  }
+  .differenc__text-title {
+    font-size: 30px;
+    padding: 0 20px;
+  }
   .differenc__text-slogan {
-    margin-top: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .differenc__text-subtitle {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .differenc__text-charter {
+    padding: 0 20px;
+    width: 260px;
   }
 }

@@ -9,12 +9,14 @@
 }
 
 .partner__wraper {
+  justify-content: flex-end;
   display: flex;
 }
 
 .partner__text {
-  width: 40%;
-  margin-left: 640px;
+  max-width: 429px;
+  width: 100%;
+  padding: 0 20px;
 }
 
 .partner__texts-slogan {
@@ -54,6 +56,38 @@
 .partner__text-button:hover {
   background-color: #e7090c;
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .partner {
+    background-color: #56206e;
+    background-image: none;
+    padding: 80px 0;
+  }
+
+  .partner__text {
+    max-width: 100%;
+  }
+
+  .partner__texts-slogan {
+    font-size: 16px;
+  }
+
+  .partner__texts-title {
+    margin: 0 0 16px;
+    padding: 0;
+    font-size: 30px;
+  }
+
+  .partner__text-subtitle {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .partner__text-button {
+    width: 210px;
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=index.c3f01f71.css.map */

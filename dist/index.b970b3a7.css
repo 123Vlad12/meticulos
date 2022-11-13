@@ -9,9 +9,12 @@
   display: flex;
 }
 
+.management__text {
+  margin: 100px 0;
+}
+
 .management__text-slogan {
   color: #552768;
-  margin-top: 100px;
   font-family: Inter Tight, sans-serif;
   font-size: 18px;
 }
@@ -44,6 +47,28 @@
 
 .management__text-button:hover {
   transform: scale(1.1);
+}
+
+.management__image {
+  margin-top: 50px;
+}
+
+.management__image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 765px) {
+  .management__about {
+    flex-wrap: wrap;
+  }
+
+  .management__text {
+    margin: 50px 20px;
+  }
+
+  .management__text-title {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=index.b970b3a7.css.map */
